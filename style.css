@@ -1,3 +1,31 @@
-p {
-    background-color: red;
+.average-price {
+    display: flex;
+    gap: 0.5rem;
 }
+
+.freelancer-info {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 5rem;
+}
+
+.Alice::before {
+    content: "Alice";
+}
+.Bob::before {
+    content: "Bob";
+}
+.Carol::before {
+    content: "Carol";
+}
+
+.writer::before {
+    content: "writer";
+}
+.teacher::before {
+    content: "teacher";
+}
+.programmer::before {
+    content: "programmer";
+}
+
